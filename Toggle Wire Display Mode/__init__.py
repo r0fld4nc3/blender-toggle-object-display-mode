@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Toggle Wire Object Mode Display",
     "author": "Artur Rosário",
-    "version": (0, 0, 1),
+    "version": (0, 0, 2),
     "blender": (4, 2, 5),
     "location": "",
     "description": "Toggles Objects' Display Mode To Wire or Textured",
@@ -10,7 +10,6 @@ bl_info = {
     "category": "Object"
 }
 
-import bpy
 import importlib
 from . import toggle_wire_mode_display
 
